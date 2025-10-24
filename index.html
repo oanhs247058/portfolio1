@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オアンちゃんのPortfolio</title>
+
+    <!-- Logo trang -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <h1>NGO THI OANH オアン</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2 id="greeting"></h2>
+            <a href="#projects" class="btn">PROJECT</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h2>ABOUT</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/IMG_4981.jpeg" alt="オアンの写真">
+                </div>
+                <div class="about-text">
+                    <p>
+                        はじめまして。私は ゴ ティ オアン と申します。<br>
+                        現在、専門学校駿台ITビジネスカレッジでシステムエンジニアコースを勉強しています。<br>
+                        学校では HTML、CSS、JavaScript を学んでいます。<br>
+                        将来的には、たくさんのウェブサイトをデザインできる、<br>
+                        創造力あふれるウェブデザイナーになりたいです。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2>PROJECTS</h2>
+            <div class="projects-grid">
+
+                <!-- Dự án 1 -->
+                <a href="./barbie-shop/index.html" 
+                   target="_blank" 
+                   class="project-card">
+                    <div class="project-content">
+                        <h3>BARBIE SHOP</h3>
+                        <p>
+                            これは、専門学校1年生のときに先生に指導していただいて制作した化粧品ショップのウェブサイトのプロジェクトです。<br>
+                            1年次は主にHTMLとCSSを学びました。
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Dự án 2 -->
+                <a href="./top-page/index.html" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>オアンちゃんのTOP-PAGE</h3>
+                        <p>
+                            2年生になると、JavaScriptの授業が始まり、先生に指導していただきながらトップページの制作実習を行いました。<br>
+                            現在もその制作を進めているところです。
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>CONTACT</h2>
+            <p>Email: ngothioanhzzz10@gmail.com</p>
+            <p>TEL: 080-4474-6965</p>
+            <p>
+  <a href="https://www.instagram.com/oanh_h_" target="_blank" class="social-icon">
+    <img src="img/icon ig.jpg" alt="Instagram" width="30">
+  </a>
+</p>
+
+
+            <form id="contactForm" action="https://formspree.io/f/xeorbepv" method="POST">
+                <input type="text" name="name" placeholder="名前" required>
+                <input type="email" name="email" placeholder="メールアドレス" required>
+                <textarea name="message" placeholder="内容" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NGO THI OANH</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
