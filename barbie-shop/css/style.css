@@ -1,0 +1,131 @@
+body {
+    background-color: #fbcfe8; /* bg-pink-100 */
+    color: #000; /* text-black */
+    font-family: 'Philosopher', sans-serif; /* font-sans */
+}
+
+header {
+    background-color: #fff; /* bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+}
+
+.container {
+    max-width: 1200px; /* Giới hạn chiều rộng của container */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 0 1rem; /* Padding bên trái và bên phải */
+}
+
+h2 {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+    text-align: center; /* text-center */
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+a {
+    text-decoration: none; /* Không gạch chân */
+}
+
+a:hover {
+    color: #ec4899; /* hover:text-pink-500 */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* gap-6 */
+}
+
+.bg-white {
+    background-color: #fff; /* Màu nền trắng */
+}
+
+.p-4 {
+    padding: 1rem; /* Padding 1rem */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* Bo góc */
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.text-center {
+    text-align: center; /* Căn giữa */
+}
+
+.text-left {
+    text-align: left; /* Căn trái */
+}
+
+.max-w-lg {
+    max-width: 32rem; /* Giới hạn chiều rộng */
+}
+
+.flex {
+    display: flex; /* Hiển thị flex */
+}
+
+.flex-col {
+    flex-direction: column; /* Cột */
+}
+
+.md\:flex-row {
+    flex-direction: row; /* Hàng trên màn hình lớn */
+}
+
+.items-center {
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.justify-between {
+    justify-content: space-between; /* Căn giữa theo chiều ngang */
+}
+
+.gap-8 {
+    gap: 2rem; /* Khoảng cách giữa các phần tử */
+}
+
+.mt-4 {
+    margin-top: 1rem; /* Khoảng cách trên */
+}
+
+.mt-8 {
+    margin-top: 2rem; /* Khoảng cách trên */
+}
+
+.py-4 {
+    padding-top: 1rem; /* Padding trên */
+    padding-bottom: 1rem; /* Padding dưới */
+}
+
+footer {
+    background-color: #fff; /* Màu nền trắng */
+    text-align: center; /* Căn giữa */
+    padding: 1rem 0; /* Padding trên và dưới */
+    margin-top: 2rem; /* Khoảng cách trên */
+}
+ .item {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            display: flex;
+            align-items: center;
+        }
+        .content img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+ .text {
+            max-width: 600px;
+        }
+        .text p {
+            margin: 10px 0;
+        }
